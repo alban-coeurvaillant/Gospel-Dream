@@ -1,61 +1,65 @@
 <?php
-	$page = "accueil";
+$PAGE_NAME = "home";
 ?>
 <!DOCTYPE html>
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<meta charset="UTF-8">
-	<title>Histoire du Gospel » Gospel Dream</title>
-	<meta name="description" content="">
-	<link href="css/gospel.css" rel="stylesheet" type="text/css" media="screen">
-	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500&display=swap" rel="stylesheet">
-	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
-	<script src="js/bjqs-1.3.min.js"></script>
-	<link type="text/css" rel="Stylesheet" href="css/bjqs.css"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta charset="UTF-8">
+    <title>Histoire du Gospel » Gospel Dream</title>
+    <meta name="description" content="">
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="screen">
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/bjqs-1.3.min.js"></script>
+
 </head>
 <body>
-<div class="layout">
-	<div class="popup">
-		<div class="wrapper">
-			<div class="image"><img src="images/picto.png" alt=""></div>
-			<div class="title">covid-19</div>
-			<div class="text">
-				<p>
-					En cette période particulièrement difficile,<br> soutenez aussi Gospel Dream dans son action </p>
-				<a href="https://www.leetchi.com/fr/c/wpj8Q80r" target="_blank">https://www.leetchi.com/fr/c/wpj8Q80r</a>
-			</div>
-			<div class="excerpt">Prenons soin de nous !</div>
-			<a href="javascript:closePopup();" id="close-popup">Continuez sur le site</a>
-		</div>
-	</div>
-</div>
-<div id="wrapper">
-	<header>
-		<?php include("views/header.php"); ?>
-		<nav>
-			<ul>
-				<li id="first_button"><a href="index.php" class="current">Notre chorale</a></li>
-				<li><a href="histoire.php">L'histoire du gospel</a></li>
-				<li><a href="concerts.php">Concerts et réservations</a></li>
-				<li><a href="galerie.php">Galerie photo</a></li>
-				<li><a href="presse.php">Presse</a></li>
-				<li><a href="discography.php">Discographie</a></li>
-				<li><a href="contacts.php">Contacts</a></li>
-			</ul>
-		</nav>
-		<section class="rubrique">
-			<h1>Bienvenue</h1>
-		</section>
-	</header>
-	<section class="main">
-		<article class="principal">
-			<?php include("views/accueil.php"); ?>
-		</article>
-		<aside class="sidebar">
-			<?php include("views/aside.php"); ?>
-		</aside>
-		<span class="clear"></span></section>
-	<?php include("views/footer.php"); ?>
+
+<div class="l-main-page">
+    <header>
+        <?php include("views/header.php"); ?>
+    </header>
+    <section class="o-banner-section is--wrapped">
+        <h1>Bienvenue</h1>
+    </section>
+    <section class="l-main is--wrapped is--white">
+        <div class=" main__content">
+            <div id="my-slideshow" class="is--disabled">
+                <ul class="bjqs">
+                    <li><img src="images/banner/1.jpg"/></li>
+                    <li><img src="images/banner/2.jpg"/></li>
+                    <li><img src="images/banner/3.jpg"/></li>
+                    <li><img src="images/banner/4.jpg"/></li>
+                    <li><img src="images/banner/5.jpg"/></li>
+                    <li><img src="images/banner/6.jpg"/></li>
+                    <li><img src="images/banner/7.jpg"/></li>
+                    <li><img src="images/banner/8.jpg"/></li>
+                </ul>
+            </div>
+            <div class="content__article">
+                <p>Créée en 1990 la formation est aujourd’hui la plus active, avec un chant liturgique en plein essor
+                    depuis la fin des années 90.
+                </p>
+
+                <p>Les uns sont d’origine africaine, les autres viennent des Antilles et des Etats-Unis.</p>
+                <p>La chorale Gospel dream est un ensemble mixte et cosmopolite de chanteurs et musiciens noirs qui
+                    réunit :
+                </p>
+                <ul>
+                    <li>10 à 12 choristes</li>
+                    <li>1 pianiste</li>
+                    <li>1 trompettiste.</li>
+                </ul>
+                <p>Sur scène, la chorale respire la joie de vivre, avec des voix qui parcourent toutes les nuances, des
+                    murmures aux vocalises improvisées, leur concert est conçu pour permettre au public de participer,
+                    de témoigner et partager un hymne à l’amour.
+                </p>
+            </div>
+        </div>
+        <aside class="sidebar">
+            <?php include("views/aside.php"); ?>
+        </aside>
+    </section>
+    <?php include("views/footer.php"); ?>
 </div>
 <script class="secret-source">
     jQuery(document).ready(function ($) {
@@ -71,18 +75,12 @@
             randomstart: true,
             usecaptions: false,
             showmarkers: false // Show individual slide markers
-            // show captions for images using the image title tag
-
         });
 
     });
 
     function closePopup() {
-
-
         $(".layout").hide();
-
-
     }
 </script>
 </body></html>

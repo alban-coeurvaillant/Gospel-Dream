@@ -1,0 +1,79 @@
+.popup .wrapper {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.popup .wrapper .title {
+  text-align: center;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.popup .wrapper .image {
+  text-align: center;
+}
+
+.popup .wrapper .image img {
+  margin-top: -6rem;
+}
+
+.popup .wrapper .text {
+  padding: 1.3rem;
+}
+
+.popup .wrapper .text p {
+  font-size: 1.2rem;
+  line-height: 2rem;
+  text-align: center;
+}
+
+.popup .wrapper .text a {
+  text-align: center;
+  margin: auto;
+  display: block;
+  color: #8c7d95;
+  font-size: 1.2rem;
+  margin: 1rem 0;
+}
+
+.popup .wrapper .excerpt {
+  text-align: center;
+  font-size: 1.7rem;
+  color: #8c7d95;
+  margin-bottom: 1rem;
+}
+
+.popup .wrapper a#close-popup {
+  background: #471741;
+  display: block;
+  margin: 1rem;
+  padding: 1rem;
+  text-align: center;
+  margin: auto;
+  text-decoration: none;
+  width: fit-content;
+  color: white;
+}
+
+.popup {
+  background: white;
+  position: absolute;
+  border-radius: 6px;
+  width: 32rem;
+  height: 26rem;
+  top: 50%;
+  left: 50%;
+  z-index: 1000;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+/*# sourceMappingURL=popup.css.map */

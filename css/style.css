@@ -1,0 +1,424 @@
+@charset "UTF-8";
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.button {
+  background-color: #9a6196;
+  color: #ffeaea;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  margin: 1rem;
+}
+
+.is--white {
+  background: white;
+}
+
+.is--wrapped {
+  max-width: 1230px;
+  min-width: 1230px;
+  margin: auto;
+}
+
+.is--disabled {
+  display: none;
+}
+
+* {
+  font-family: "Gill Sans Extrabold", sans-serif !important;
+}
+
+h1 {
+  font-size: 1rem;
+  color: #00C;
+}
+
+h2 {
+  font-size: 14px;
+  color: #4d7cdb;
+}
+
+h3 {
+  color: #eda5a5;
+}
+
+.o-header {
+  background-color: #fffcfc;
+  background-repeat: no-repeat;
+  width: 100%;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  height: 4rem;
+}
+.o-header .header__baseline {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+nav {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  background-color: #d756c4;
+  width: 100%;
+}
+nav ul {
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+nav ul li {
+  height: 100%;
+  text-align: center;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+nav ul li a {
+  color: #cdcfc9;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 1rem;
+  height: 100%;
+  width: 100%;
+  white-space: nowrap;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+nav ul li a:hover {
+  background-color: #3D0635;
+  color: white;
+  cursor: pointer;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.o-banner-section {
+  background-color: rgba(0, 0, 0, 0.9);
+  width: 100%;
+  padding: 2rem;
+  display: flex;
+  box-sizing: border-box;
+  justify-content: center;
+  height: 10rem;
+}
+.o-banner-section h1 {
+  color: white;
+  font-size: 1.5em;
+}
+
+footer {
+  background-color: #4a0740;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  min-height: 9rem;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  outline: solid saddlebrown;
+  width: 30%;
+  margin: 0;
+}
+
+.l-main-page {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.current {
+  background-color: #7D6990;
+  font-weight: bold;
+  color: white;
+}
+
+section.main aside.sidebar h1, section.main aside.sidebar h3 {
+  background-color: #4a0740;
+  color: #fff;
+  font: bolder 14px/29px "Lucida Grande", Lucida, Verdana, sans-serif;
+  height: 33px;
+  text-align: center;
+  width: 100%;
+}
+
+section.main article.principal h2 {
+  border-bottom: 1px solid #ededed;
+  color: #8a5890;
+  font-family: Trebuchet MS, Arial, sans-serif;
+  font-size: 1.37em;
+  margin-bottom: 6px;
+  padding-bottom: 10px;
+}
+
+section.main article.principal p.intro_press {
+  color: #ca97ca;
+  display: block;
+  font-family: Georgia, serif;
+  font-size: 17px;
+  font-style: italic;
+  font-weight: bold;
+  margin-bottom: 12px;
+  margin-top: 12px;
+}
+
+section.main article.principal p.intro_press::after {
+  content: " »";
+}
+
+section.main article.principal p.intro_press::before {
+  content: "» ";
+}
+
+section.main article.principal p {
+  font-family: Trebuchet MS, Arial, sans-serif;
+  font-size: 1.2em;
+  margin-bottom: 13px;
+}
+
+section.main article.principal h3 {
+  color: #ca97ca;
+  display: block;
+  font-family: Georgia, serif;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: bold;
+  padding-bottom: 10px;
+  padding-top: 12px;
+}
+
+article.principal p.article {
+  color: #858585;
+  display: block;
+  font-family: Georgia, serif;
+  font-size: 15px;
+  font-style: italic;
+}
+
+article.principal p.press_name {
+  color: #626060;
+  display: block;
+  font-family: Georgia, serif;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+table#main_table.discography tbody tr.album td.album_img {
+  padding-left: 27px;
+  padding-top: 40px;
+}
+
+table#main_table.discography tbody tr.album td.album_info {
+  padding-left: 16px;
+  vertical-align: middle;
+}
+
+table#main_table.discography tbody tr.album td.album_info span.title {
+  color: #8a5890;
+  font-family: Trebuchet MS, Arial, sans-serif;
+  font-size: 1.57em;
+  text-transform: uppercase;
+}
+
+table#main_table.discography tbody tr.album td.album_info span.distribution {
+  display: block;
+  font-size: 12px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+html body div#wrapper section.main article.principal blockquote p {
+  color: #ae9898;
+  font-size: 17px;
+  font-style: italic;
+  font-weight: 900;
+}
+
+html body div#wrapper header a#logo {
+  display: block;
+  height: 100px;
+  position: absolute;
+  width: 407px;
+}
+
+table tbody tr th.titre_tableau_jour {
+  background-color: #cdc6d5;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 50%;
+  padding: 3px;
+  text-indent: 5px;
+  width: 15%;
+}
+
+table tbody tr th.titre_tableau_date {
+  background-color: #cdc6d5;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 25px;
+  padding: 3px;
+  text-indent: 5px;
+  width: 17%;
+}
+
+table tbody tr th.titre_tableau_lieu {
+  background-color: #cdc6d5;
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 25px;
+  padding: 3px;
+  text-indent: 5px;
+  width: 0px;
+}
+
+table tbody tr th.titre_tableau_heure {
+  background-color: #cdc6d5;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 25px;
+  padding: 3px;
+  text-indent: 5px;
+  width: 15%;
+}
+
+article.principal table tbody tr td {
+  height: 33px;
+  line-height: 50%;
+  padding: 5px;
+  text-transform: uppercase;
+  vertical-align: middle;
+  font-size: 11px;
+  font-weight: bold;
+  color: #828282;
+}
+
+table#events {
+  border: 1px solid #eee6e6;
+  text-indent: 11px;
+}
+
+table#events tbody tr {
+  background-color: #f5f5f5;
+}
+
+h2 {
+  background-color: #7D6990;
+  color: white;
+  font-weight: bold;
+  line-height: 27px;
+  padding-bottom: 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.layout {
+  display: block;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 10000;
+  background: rgba(125, 105, 144, 0.61);
+  box-sizing: border-box;
+}
+
+.l-main {
+  display: flex;
+  background: black;
+}
+.l-main .main__siderbar {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  padding: 1rem;
+  max-width: 20rem;
+  align-items: center;
+}
+.l-main .main__content {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  font-size: 1.3rem;
+  color: white;
+}
+.l-main .main__content .content__article {
+  padding: 2rem;
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+/*# sourceMappingURL=style.css.map */
