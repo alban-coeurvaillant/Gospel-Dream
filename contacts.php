@@ -19,19 +19,21 @@ $PAGE_NAME = "contact";
     <header>
         <?php include("views/header.php"); ?>
     </header>
-    <section class="o-banner-section">
+    <section class="o-banner-section is--wrapped">
         <h1>Contacts</h1>
     </section>
     <section class="l-main is--wrapped is--white">
         <div class="main__content">
-            <p>Vous avez des questions  ou besoin d’informations
-                complémentaires, <br />
-                merci de nous contacter directement : </p>
-            <ul class="infos_de_contacts">
-                <li><strong>Par téléphone</strong><br>Tél. : 01 43 14 08 10<br>Port : 06 07 08 55 56</li>
-                <li><strong>Par par mail</strong><br>En nous envoyant un mail directment à l’adresse : manager@gospeldream.com</li>
-            </ul>
-        </div>
+            <div class="content__article">
+                <p>Vous avez des questions  ou besoin d’informations
+                    complémentaires, <br />
+                    merci de nous contacter directement : </p>
+                <ul class="infos_de_contacts">
+                    <li><strong>Par téléphone</strong><br>Tél. : 01 43 14 08 10<br>Port : 06 07 08 55 56</li>
+                    <li><strong>Par par mail</strong><br>En nous envoyant un mail directment à l’adresse : manager@gospeldream.com</li>
+                </ul>
+            </div>
+            </div>
         <aside class="sidebar">
             <?php include("views/aside.php"); ?>
         </aside>

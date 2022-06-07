@@ -14,7 +14,7 @@ $PAGE_NAME = "history";
 <div class="l-main-page">
     <header>
         <?php include("views/header.php"); ?>
-        <section class="o-banner-section">
+        <section class="o-banner-section is--wrapped">
             <h1>Histoire dssu Gospel</h1>
         </section>
     </header>
@@ -74,9 +74,9 @@ $PAGE_NAME = "history";
             </div>
 
         </div>
-        <div class="sidebar">
+
             <?php include("views/aside.php"); ?>
-        </div>
+
     </section>
     <?php include("views/footer.php"); ?>
 </div>

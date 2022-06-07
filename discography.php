@@ -18,7 +18,7 @@ $PAGE_NAME = "discography";
     <header>
         <?php include("views/header.php"); ?>
     </header>
-    <section class="o-banner-section">
+    <section class="o-banner-section is--wrapped ">
         <h1>Discographie</h1>
     </section>
 

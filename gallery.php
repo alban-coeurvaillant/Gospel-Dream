@@ -21,7 +21,7 @@ $PAGE_NAME = "gallery";
 <div class="l-main-page">
     <header>
         <?php include("views/header.php"); ?>
-        <section class="o-banner-section">
+        <section class="o-banner-section is--wrapped">
             <h1>Galerie Photo</h1>
         </section>
     </header>

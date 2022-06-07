@@ -13,7 +13,7 @@ $PAGE_NAME = "concerts";
 <div class="l-main-page">
 <header>
   <?php include("views/header.php"); ?>
-    <section class="o-banner-section">
+    <section class="o-banner-section is--wrapped">
 <h1>Concerts et reservations</h1>
 </section>
 </header>

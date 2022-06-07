@@ -71,7 +71,6 @@ table {
 
 .is--wrapped {
   max-width: 1230px;
-  min-width: 1230px;
   margin: auto;
 }
 
@@ -83,34 +82,46 @@ table {
   font-family: "Gill Sans Extrabold", sans-serif !important;
 }
 
-h1 {
-  font-size: 1rem;
-  color: #00C;
+.h1 {
+  font-size: 2rem;
+  color: white;
 }
 
-h2 {
-  font-size: 14px;
-  color: #4d7cdb;
+.h2 {
+  font-size: 1.5rem;
+  color: white;
 }
 
-h3 {
-  color: #eda5a5;
+.h3 {
+  font-size: 1.5rem;
+  color: white;
+}
+
+.h4 {
+  font-size: 1.5rem;
+  color: white;
 }
 
 .o-header {
-  background-color: #fffcfc;
-  background-repeat: no-repeat;
   width: 100%;
-  display: grid;
-  grid-template-rows: 1fr 1fr;
-  grid-template-columns: 1fr 1fr;
-  height: 4rem;
+  min-height: 6rem;
+  background: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 .o-header .header__baseline {
   display: flex;
   align-items: center;
   justify-content: center;
+  width: max-content;
+  padding: 1rem;
 }
+.o-header .m-header__logo {
+  width: max-content;
+  padding: 1rem;
+}
+
 nav {
   grid-column-start: 1;
   grid-column-end: 3;
@@ -146,9 +157,14 @@ nav ul li a {
   justify-content: center;
 }
 nav ul li a:hover {
-  background-color: #3D0635;
+  background-color: #56204e;
   color: white;
   cursor: pointer;
+}
+nav ul li a.current {
+  background-color: #3D0635;
+  font-weight: bold;
+  color: white;
 }
 
 body {
@@ -163,8 +179,7 @@ body {
   padding: 2rem;
   display: flex;
   box-sizing: border-box;
-  justify-content: center;
-  height: 10rem;
+  align-items: center;
 }
 .o-banner-section h1 {
   color: white;
@@ -176,16 +191,18 @@ footer {
   width: 100%;
   display: flex;
   justify-content: center;
-  min-height: 9rem;
+  min-height: 3rem;
 }
 
 .sidebar {
   display: flex;
   flex-direction: column;
   align-items: center;
-  outline: solid saddlebrown;
   width: 30%;
-  margin: 0;
+  background: #3f3f3f;
+  padding: 1rem;
+  max-width: 15rem;
+  margin-left: auto;
 }
 
 .l-main-page {
@@ -194,10 +211,8 @@ footer {
   width: 100%;
 }
 
-.current {
-  background-color: #7D6990;
-  font-weight: bold;
-  color: white;
+iframe {
+  width: 100%;
 }
 
 section.main aside.sidebar h1, section.main aside.sidebar h3 {
@@ -372,16 +387,6 @@ table#events {
 
 table#events tbody tr {
   background-color: #f5f5f5;
-}
-
-h2 {
-  background-color: #7D6990;
-  color: white;
-  font-weight: bold;
-  line-height: 27px;
-  padding-bottom: 0;
-  text-align: center;
-  text-transform: uppercase;
 }
 
 .layout {

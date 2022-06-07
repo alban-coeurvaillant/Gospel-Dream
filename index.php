@@ -1,25 +1,14 @@
 <?php
 $PAGE_NAME = "home";
+$PAGE_TITLE = "Ceci est le titre de la page";
+$PAGE_DESCRIPTION = "Ceci est la description de la page";
 ?>
-<!DOCTYPE html>
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta charset="UTF-8">
-    <title>Histoire du Gospel » Gospel Dream</title>
-    <meta name="description" content="">
-    <link href="css/style.css" rel="stylesheet" type="text/css" media="screen">
-    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
-    <script src="js/bjqs-1.3.min.js"></script>
 
-</head>
-<body>
-
+<?php include("head.php"); ?>
 <div class="l-main-page">
-    <header>
         <?php include("views/header.php"); ?>
-    </header>
     <section class="o-banner-section is--wrapped">
-        <h1>Bienvenue</h1>
+        <h2 class="h2">Bienvenue</h2>
     </section>
     <section class="l-main is--wrapped is--white">
         <div class=" main__content">
@@ -35,7 +24,9 @@ $PAGE_NAME = "home";
                     <li><img src="images/banner/8.jpg"/></li>
                 </ul>
             </div>
+
             <div class="content__article">
+                <h4 class="h4">Une Chorale à taille humaine </h4>
                 <p>Créée en 1990 la formation est aujourd’hui la plus active, avec un chant liturgique en plein essor
                     depuis la fin des années 90.
                 </p>
@@ -55,9 +46,9 @@ $PAGE_NAME = "home";
                 </p>
             </div>
         </div>
-        <aside class="sidebar">
+
             <?php include("views/aside.php"); ?>
-        </aside>
+
     </section>
     <?php include("views/footer.php"); ?>
 </div>

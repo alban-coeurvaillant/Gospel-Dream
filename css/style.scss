@@ -1,27 +1,28 @@
 
 @import "reset";
+@import "color";
 @import "components/buttons";
 @import "tools";
 @import "typography";
 
 .o-header{
-    background-color: #fffcfc;
-    background-repeat: no-repeat;
     width: 100%;
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    grid-template-columns: 1fr 1fr;
-    height: 4rem;
-
+    min-height: 6rem;
+    background: black;
+    display: flex;
+  flex-direction: column;
+    justify-content: flex-start;
 
   .header__baseline{
     display: flex;
     align-items: center;
     justify-content: center;
-
+    width: max-content;
+    padding: 1rem;
   }
-  .header__logo{
-
+  .m-header__logo{
+    width: max-content;
+    padding: 1rem;
   }
 }
 
@@ -60,9 +61,14 @@ nav {
         align-items: center;
         justify-content: center;
         &:hover {
-          background-color: #3D0635;
+          background-color: $tertiary;
           color: white;
           cursor: pointer;
+        }
+        &.current {
+          background-color: $primary;
+          font-weight: bold;
+          color: white;
         }
       }
     }
@@ -86,8 +92,7 @@ body {
   padding: 2rem;
   display: flex;
   box-sizing: border-box;
-  justify-content: center;
-  height: 10rem;
+  align-items: center;
   h1 {
     color: white;
     font-size: 1.5em;
@@ -100,16 +105,18 @@ footer {
   width: 100%;
   display: flex;
   justify-content: center;
-  min-height: 9rem;
+  min-height: 3rem;
 }
 
 .sidebar {
   display: flex;
   flex-direction: column;
-    align-items: center;
-  outline: solid saddlebrown;
+  align-items: center;
   width: 30%;
-  margin: 0;
+  background: #3f3f3f;
+  padding: 1rem;
+  max-width: 15rem;
+  margin-left: auto;
 }
 
 .l-main-page{
@@ -118,11 +125,10 @@ footer {
   width: 100%;
 }
 
-.current {
-  background-color: #7D6990;
-  font-weight: bold;
-  color: white;
+iframe{
+  width: 100%;
 }
+
 
 section.main aside.sidebar h1, section.main aside.sidebar h3 {
   background-color: #4a0740;
@@ -132,8 +138,6 @@ section.main aside.sidebar h1, section.main aside.sidebar h3 {
   text-align: center;
   width: 100%;
 }
-
-
 
 section.main article.principal h2 {
   border-bottom: 1px solid #ededed;
@@ -305,16 +309,6 @@ table#events tbody tr {
 }
 
 
- h2 {
-  background-color: #7D6990;
-  color: white;
-  font-weight: bold;
-  line-height: 27px;
-  padding-bottom: 0;
-  text-align: center;
-  text-transform: uppercase;
-}
-
 .layout {
   display: block;
   position: fixed;
@@ -326,8 +320,6 @@ table#events tbody tr {
   background: rgba(125, 105, 144, 0.61);
   box-sizing: border-box;
 }
-
-
 
 .l-main{
   display: flex;
