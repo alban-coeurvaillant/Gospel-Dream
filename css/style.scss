@@ -1,15 +1,23 @@
-
 @import "reset";
+@import "partials/breakpoints";
 @import "color";
+@import "layouts/index";
 @import "components/buttons";
 @import "o-sidebar";
-@import "components/molecules/m-header";
-@import "components/molecules/m-langage-switcher";
-@import "components/molecules/m-album-card";
+@import "components/molecules/index";
 @import "partials/helpers";
-@import "partials/breakpoints";
 @import "typography";
 @import "tools";
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #000000;
+
+}
+
+
 
 
 .o-header{
@@ -32,77 +40,20 @@
   }
 }
 
-//Navigation //
-
-nav {
-
-  grid-column-start: 1;
-  grid-column-end: 3;
-  background-color: #d756c4;
-  width: 100%;
-  ul {
-    height: auto;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    li{
-      height: 100%;
-      text-align: center;
-      margin: 0;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-
-      a{
-        color: #cdcfc9;
-        text-transform: uppercase;
-        text-decoration: none;
-        font-size: 1rem;
-        height: 100%;
-        width: 100%;
-        white-space: nowrap;
-        padding: 1rem;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        &:hover {
-          background-color: $tertiary;
-          color: white;
-          cursor: pointer;
-        }
-        &.current {
-          background-color: $primary;
-          font-weight: bold;
-          color: white;
-        }
-      }
-    }
-  }
-}
-
-//Navigation end //
 
 
-body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-}
 
 
 .o-banner-section{
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgb(255, 255, 255);
   width: 100%;
   padding: 2rem;
   display: flex;
   box-sizing: border-box;
   align-items: center;
-  h1 {
-    color: white;
-    font-size: 1.5em;
 
+  h1 {
+    color: black;
   }
 }
 
@@ -149,35 +100,7 @@ iframe{
 }
 
 .l-main{
-  display: flex;
-  background: black;
-  width: inherit;
 
-
-  .main__sidebar{
-    display: flex;
-    flex-direction: column;
-    width: 30%;
-    padding: 1rem;
-    max-width: 20rem;
-    align-items: center;
-  }
-
-
-
-  .main__content{
-    display: flex;
-    flex-direction: column;
-    font-size: 1.3rem;
-    color: white;
-    width: inherit;
-    .content__article {
-      padding: 2rem;
-      font-size: 1rem;
-      line-height: 1.7;
-      background: blue;
-    }
-  }
 }
 
 // modifiers

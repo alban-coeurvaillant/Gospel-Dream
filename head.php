@@ -8,4 +8,4 @@
     <script src="http://code.jquery.com/jquery-latest.min.js"></script>
     <script src="js/bjqs-1.3.min.js"></script>
 </head>
-<body class="is--gray">
+<body>

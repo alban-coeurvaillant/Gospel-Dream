@@ -15,7 +15,8 @@ $PAGE_NAME = "history";
     <header>
         <?php include("views/header.php"); ?>
         <section class="o-banner-section is--wrapped">
-            <h1>Histoire dssu Gospel</h1>
+            <h2 class="h2">Histoire du Gospel</h2>
+
         </section>
     </header>
     <section class="l-main is--wrapped is--white">

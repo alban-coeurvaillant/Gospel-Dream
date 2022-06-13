@@ -6,9 +6,33 @@
 
   }
   .album-card__content{
+    @include for-phone-only {
 
+   flex-direction: column;
+    }
+.content__article{
+  font-size: 1.5rem;
+}
 
   }
+  @include for-phone-only {
 
+    background:red;
+  }
+
+  @include for-tablet-landscape-up {
+
+    background:yellow;
+  }
+
+  @include for-desktop-up {
+
+    background:orange;
+  }
+
+  @include for-big-desktop-up {
+
+    background:purple;
+  }
 
 }

@@ -1,0 +1,55 @@
+
+.l-main{
+background: white;
+  display: flex;
+  width: inherit;
+
+
+  .main__sidebar{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    padding: 1rem;
+    max-width: 20rem;
+    align-items: center;
+  }
+
+
+
+  .main__content{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.3rem;
+    color: white;
+    width: inherit;
+    .content__article {
+      padding: 2rem;
+      font-size: 1rem;
+      line-height: 1.7;
+      background: blue;
+    }
+  }
+
+
+  @include for-phone-only {
+
+    flex-direction: column;
+  }
+
+  @include for-tablet-landscape-up {
+
+    background:yellow;
+  }
+
+  @include for-desktop-up {
+
+    background:orange;
+  }
+
+  @include for-big-desktop-up {
+
+    background:purple;
+  }
+
+}
+
