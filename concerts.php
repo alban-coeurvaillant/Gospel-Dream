@@ -11,23 +11,17 @@ $PAGE_NAME = "concerts";
 </head>
 <body>
 <div class="l-main-page">
-<header>
+<header class="">
   <?php include("views/header.php"); ?>
-    <section class="o-banner-section is--wrapped">
+    <section class="o-banner-section is--wrapped ">
 <h1>Concerts et reservations</h1>
 </section>
 </header>
     <section class="l-main is--wrapped is--white">
-        <div class=" main__content">
+        <div class=" main__content is--dark">
             <div class="content__article">
                 <?php include("views/concerts.php"); ?>
             </div>
   </div>
-  <aside class="sidebar">
-    <?php include("views/aside.php"); ?>
-  </aside>
-</section>
+        <?php include("views/sidebar.php"); ?>
  <?php include("views/footer.php"); ?>
-</div>
-</body>
-</html>

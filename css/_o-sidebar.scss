@@ -1,0 +1,17 @@
+.o-sidebar{
+  background: red;
+  margin-left: auto;
+  padding: 1rem;
+  min-width: 16rem;
+  display: flex;
+  flex-direction: column;
+
+.sidebar__img{
+    outline: solid;
+    width: 80%;
+    img{
+      width: 100%;
+      height: auto;
+    }
+  }
+}

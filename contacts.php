@@ -23,7 +23,7 @@ $PAGE_NAME = "contact";
         <h1>Contacts</h1>
     </section>
     <section class="l-main is--wrapped is--white">
-        <div class="main__content">
+        <div class=" main__content is--dark">
             <div class="content__article">
                 <p>Vous avez des questions  ou besoin d’informations
                     complémentaires, <br />
@@ -34,11 +34,5 @@ $PAGE_NAME = "contact";
                 </ul>
             </div>
             </div>
-        <aside class="sidebar">
-            <?php include("views/aside.php"); ?>
-        </aside>
-    </section>
+            <?php include("views/sidebar.php"); ?>
     <?php include("views/footer.php"); ?>
-</div>
-</body>
-</html>

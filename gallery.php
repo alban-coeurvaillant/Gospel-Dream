@@ -29,22 +29,9 @@ $PAGE_NAME = "gallery";
     <section class="l-main is--wrapped is--white">
 
         <div class="main__content">
-            <div class="content__article">
+            <div class=" main__content is--dark">
                 <?php include("views/galerie.php"); ?>
             </div>
         </div>
-        <aside class="sidebar">
-            <?php include("views/aside.php"); ?>
-        </aside>
-
-        <span class="clear"></span>
-    </section>
-
+            <?php include("views/sidebar.php"); ?>
     <?php include("views/footer.php"); ?>
-</div>
-
-
-<script src="js/lightbox-plus-jquery.min.js"></script>
-
-</body>
-</html>

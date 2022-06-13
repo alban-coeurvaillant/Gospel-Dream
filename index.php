@@ -11,7 +11,7 @@ $PAGE_DESCRIPTION = "Ceci est la description de la page";
         <h2 class="h2">Bienvenue</h2>
     </section>
     <section class="l-main is--wrapped is--white">
-        <div class=" main__content">
+        <div class=" main__content is--dark">
             <div id="my-slideshow" class="is--disabled">
                 <ul class="bjqs">
                     <li><img src="images/banner/1.jpg"/></li>
@@ -47,31 +47,6 @@ $PAGE_DESCRIPTION = "Ceci est la description de la page";
             </div>
         </div>
 
-            <?php include("views/aside.php"); ?>
-
-    </section>
+            <?php include("views/sidebar.php"); ?>
     <?php include("views/footer.php"); ?>
-</div>
-<script class="secret-source">
-    jQuery(document).ready(function ($) {
 
-        $('#my-slideshow').bjqs({
-            animtype: 'fade',
-            height: 258,
-            width: 685,
-            animduration: 450, // how fast the animation are
-            animspeed: 5000, // the delay between each slide
-            responsive: true,
-            showcontrols: false, // show next and prev control
-            randomstart: true,
-            usecaptions: false,
-            showmarkers: false // Show individual slide markers
-        });
-
-    });
-
-    function closePopup() {
-        $(".layout").hide();
-    }
-</script>
-</body></html>

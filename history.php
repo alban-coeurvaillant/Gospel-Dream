@@ -74,11 +74,6 @@ $PAGE_NAME = "history";
             </div>
 
         </div>
-
-            <?php include("views/aside.php"); ?>
-
+            <?php include("views/sidebar.php"); ?>
     </section>
     <?php include("views/footer.php"); ?>
-</div>
-</body>
-</html>
