@@ -1,13 +1,13 @@
-@import "reset";
+@import "partials/reset";
 @import "partials/breakpoints";
-@import "color";
+@import "partials/color";
 @import "layouts/index";
 @import "components/buttons";
-@import "o-sidebar";
+@import "components/organisms/index";
 @import "components/molecules/index";
 @import "partials/helpers";
-@import "typography";
-@import "tools";
+@import "partials/typography";
+@import "partials/tools";
 
 body {
   display: flex;
@@ -17,28 +17,6 @@ body {
 
 }
 
-
-
-
-.o-header{
-    width: 100%;
-    min-height: 6rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-
-  .header__baseline{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: max-content;
-    padding: 1rem;
-  }
-  .header__logo{
-    width: max-content;
-    padding: 1rem;
-  }
-}
 
 
 

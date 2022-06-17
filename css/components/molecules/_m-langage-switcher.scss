@@ -1,5 +1,15 @@
 .m-langage-switcher{
+  display: none;
   background: #c4590f;
-  display: flex;
   height: max-content;
+
+  .lang-fr{
+    margin-left: auto;
+    background: red;
+    padding: 1rem;
+  }
+
+  .lang-en{
+    padding: 1rem;
+  }
 }

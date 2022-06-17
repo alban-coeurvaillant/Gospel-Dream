@@ -1,0 +1,24 @@
+
+.o-header{
+  width: 100%;
+  min-height: 6rem;
+  display: flex;
+  justify-content: space-between;
+
+  text-align: left;
+
+  .header__logo{
+    width: max-content;
+    padding: 1rem;
+    margin-bottom: 0.8rem;
+  }
+
+  .header__baseline{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: max-content;
+    padding: 1rem;
+  }
+
+}

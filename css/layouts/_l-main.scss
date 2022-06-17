@@ -1,8 +1,9 @@
 
 .l-main{
-background: white;
+  background: white;
   display: flex;
-  width: inherit;
+  width: 92vw;
+  flex-direction: column;
 
 
   .main__sidebar{
@@ -12,6 +13,8 @@ background: white;
     padding: 1rem;
     max-width: 20rem;
     align-items: center;
+
+
   }
 
 
@@ -21,7 +24,6 @@ background: white;
     flex-direction: column;
     font-size: 1.3rem;
     color: white;
-    width: inherit;
     .content__article {
       padding: 2rem;
       font-size: 1rem;
@@ -53,3 +55,11 @@ background: white;
 
 }
 
+footer{
+  padding: 1rem;
+  box-sizing: border-box;
+  p{
+    text-align: center;
+    color: white;
+  }
+}
