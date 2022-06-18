@@ -1,0 +1,12 @@
+footer {
+  display: flex;
+  flex-direction: column;
+padding: 1rem;
+  div, h2 {
+    width: 100%;
+
+  }
+  h2{
+    color: white;
+  }
+}

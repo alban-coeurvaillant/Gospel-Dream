@@ -46,8 +46,6 @@ $PAGE_DESCRIPTION = "Ceci est la description de la page";
 
 <div class="debug-card" style="display: none">
 
-
-
     <ul>
         <li>
             <?php
@@ -64,16 +62,11 @@ $PAGE_DESCRIPTION = "Ceci est la description de la page";
             ?>
         </li>
     </ul>
-
-
 </div>
 <div class="l-main-page">
     <header>
         <?php include("views/header.php"); ?>
     </header>
-    <section class="o-banner-section ">
-        <h2 class="h2">Bienvenue</h2>
-    </section>
     <section class="l-main  ">
         <div class=" main__content ">
             <?php include("views/home.php")?>

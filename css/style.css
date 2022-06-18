@@ -56,6 +56,17 @@ table {
   box-sizing: border-box;
 }
 
+#my-slideshow {
+  overflow: hidden;
+  height: 20rem;
+  display: flex;
+}
+#my-slideshow img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 .l-main {
   display: flex;
   width: 100%;
@@ -110,6 +121,18 @@ footer p {
   font-size: 0.9rem !important;
 }
 
+footer {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+footer div, footer h2 {
+  width: 100%;
+}
+footer h2 {
+  color: white;
+}
+
 .button {
   background-color: #9a6196;
   color: #ffeaea;
@@ -117,8 +140,12 @@ footer p {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 1rem;
-  width: 100%;
+  padding: 0.5rem 1.8rem;
+  width: max-content;
+  border-radius: 0.2rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 0.9rem;
 }
 
 .o-header {
@@ -127,6 +154,7 @@ footer p {
   display: flex;
   justify-content: space-between;
   text-align: left;
+  padding: 1rem;
 }
 .o-header .header__logo {
   width: max-content;
@@ -171,7 +199,7 @@ footer p {
 }
 
 .o-banner-section {
-  background-color: #de0000;
+  background-color: #7f765c;
   width: 100%;
   padding: 1rem;
   display: flex;
@@ -226,12 +254,12 @@ footer p {
   box-sizing: border-box;
 }
 #myLinks a:hover {
-  background-color: #56204e;
+  background-color: #5d5c7f;
   color: white;
   cursor: pointer;
 }
 #myLinks a.current {
-  background-color: #3D0635;
+  background-color: #5d5c7f;
   font-weight: bold;
   color: white;
 }
@@ -307,6 +335,10 @@ footer p {
 
 .is--disabled {
   display: none;
+}
+
+.txt-white {
+  color: white;
 }
 
 .m-1 {
@@ -990,8 +1022,8 @@ my-auto {
 }
 
 .h2 {
-  font-size: 1.5rem;
-  font-weight: 500;
+  font-size: 2.2rem;
+  font-weight: 700;
 }
 
 .h3 {
@@ -1008,6 +1040,15 @@ my-auto {
 
 #headline {
   color: white;
+}
+
+body, input, button {
+  font-family: "Libre Franklin";
+  line-height: 30px;
+  font-weight: 400;
+  font-style: normal;
+  color: #232323;
+  font-size: 17px;
 }
 
 .has--padding {
@@ -1038,6 +1079,11 @@ footer {
   padding: 1rem;
   max-width: 15rem;
   margin-left: auto;
+}
+
+#home-slider {
+  overflow: hidden;
+  height: 20rem;
 }
 
 iframe {

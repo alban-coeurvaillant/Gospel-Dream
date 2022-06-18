@@ -1,6 +1,6 @@
 @import "partials/reset";
 @import "partials/breakpoints";
-@import "partials/color";
+@import "partials/colors";
 @import "layouts/index";
 @import "components/buttons";
 @import "components/organisms/index";
@@ -16,8 +16,6 @@ body {
   background: #000000;
 
 }
-
-
 
 footer {
   background-color: #4a0740;
@@ -38,7 +36,10 @@ footer {
   margin-left: auto;
 }
 
-
+#home-slider{
+  overflow: hidden;
+  height: 20rem;
+}
 iframe{
   width: 100%;
 }

@@ -1,16 +1,19 @@
+<div id="my-slideshow" >
+<img src="images/banner/1.jpg"/>
+    <img src="images/banner/2.jpg"/>
+     <img src="images/banner/3.jpg"/>
+        <img src="images/banner/4.jpg"/>
+        <img src="images/banner/5.jpg"/>
+    <img src="images/banner/6.jpg"/>
+    <img src="images/banner/7.jpg"/>
+    <img src="images/banner/8.jpg"/>
 
-<div id="my-slideshow" class="is--disabled">
-    <ul class="bjqs">
-        <li><img src="images/banner/1.jpg"/></li>
-        <li><img src="images/banner/2.jpg"/></li>
-        <li><img src="images/banner/3.jpg"/></li>
-        <li><img src="images/banner/4.jpg"/></li>
-        <li><img src="images/banner/5.jpg"/></li>
-        <li><img src="images/banner/6.jpg"/></li>
-        <li><img src="images/banner/7.jpg"/></li>
-        <li><img src="images/banner/8.jpg"/></li>
-    </ul>
 </div>
+
+<section class="o-banner-section ">
+    <h2 class="h2 txt-white">Bienvenue</h2>
+</section>
+
 
 <div class="content__article">
     <h4 class="h4">Une Chorale à taille humaine </h4>

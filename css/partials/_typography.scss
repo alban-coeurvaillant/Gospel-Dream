@@ -9,8 +9,9 @@
 }
 
 .h2 {
-  font-size: 1.5rem;
-  font-weight: 500;
+
+  font-size: 2.2rem;
+  font-weight: 700;
 
 }
 
@@ -28,4 +29,13 @@
 
 #headline{
   color: white;
+}
+
+body, input, button {
+  font-family: "Libre Franklin";
+  line-height: 30px;
+  font-weight: 400;
+  font-style: normal;
+  color: #232323;
+  font-size: 17px;
 }

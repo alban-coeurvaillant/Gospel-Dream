@@ -49,13 +49,13 @@
      box-sizing: border-box;
 
      &:hover {
-       background-color: $tertiary;
+       background-color: $tertiary-400;
        color: white;
        cursor: pointer;
      }
 
      &.current {
-       background-color: $primary;
+       background-color: $tertiary-400;
        font-weight: bold;
        color: white;
      }
