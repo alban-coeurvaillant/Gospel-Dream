@@ -19,22 +19,6 @@ body {
 
 
 
-
-
-
-.o-banner-section{
-  background-color: rgb(255, 255, 255);
-  width: 100%;
-  padding: 2rem;
-  display: flex;
-  box-sizing: border-box;
-  align-items: center;
-
-  h1 {
-    color: black;
-  }
-}
-
 footer {
   background-color: #4a0740;
   width: 100%;
@@ -54,12 +38,6 @@ footer {
   margin-left: auto;
 }
 
-.l-main-page{
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  padding: 1rem;
-}
 
 iframe{
   width: 100%;
@@ -77,12 +55,16 @@ iframe{
   box-sizing: border-box;
 }
 
-.l-main{
-
+.gallery-box__content{
+  display: flex;
+  flex-wrap: wrap;
+  a {
+    width: 50%;
+    outline: solid;
+    background: red;
+    img{
+      width: 100%;
+      height: 100%;
+    }
+  }
 }
-
-// modifiers
-
-
-
-// modifiers End

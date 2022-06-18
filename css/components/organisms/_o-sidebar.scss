@@ -1,11 +1,9 @@
 .o-sidebar{
-  background: red;
   padding: 1rem;
-  min-width: 16rem;
   display: flex;
   flex-direction: column;
 .sidebar__infos{
-
+color: white;
   align-items: center;
   padding: 1rem;
   display: flex;
@@ -14,6 +12,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
+    a:first-of-type{
+      margin-bottom: 1rem;
+    }
   }
 }
 

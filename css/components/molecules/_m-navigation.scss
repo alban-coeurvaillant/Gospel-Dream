@@ -1,14 +1,37 @@
 .icon{
-  display: block;
-  outline: solid;
-  height: 66px;
-  width: 63px;
-  display: block;
-  background: steelblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 3rem;
+  width: 3rem;
+
+  span{
+    display: block;
+    height: 0.5rem;
+    background: red;
+  }
+
+  &.is--active{
+    background: blue;
+
+    span{
+      &:nth-child(1){
+        transform: rotate(45deg) translate(10px, 10px);
+      }
+
+      &:nth-child(3){
+        visibility: hidden;
+      }
+      &:nth-child(2){
+        transform: rotate(-45deg) ;
+      }
+    }
+  }
+
+
 }
 
 #myLinks {
-
 
  display: none;
    a {
@@ -23,6 +46,7 @@
      display: flex;
      align-items: center;
      justify-content: center;
+     box-sizing: border-box;
 
      &:hover {
        background-color: $tertiary;
@@ -39,20 +63,3 @@
 }
 
 
- ul {
-   height: auto;
-   width: 100%;
-   display: flex;
-   flex-wrap: wrap;
-   justify-content: center;
-   flex-direction: column;
-   li{
-     height: 100%;
-     text-align: center;
-     margin: 0;
-     display: flex;
-     align-items: center;
-     justify-content: center;
-     flex-grow: 1;
-   }
- }

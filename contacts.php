@@ -1,5 +1,7 @@
 <?php
 $PAGE_NAME = "contact";
+$PAGE_TITLE = "Ceci est le titre de la page";
+$PAGE_DESCRIPTION = "Ceci est la description de la page";
 ?>
 <?php include("head.php"); ?>
 <div class="l-main-page">

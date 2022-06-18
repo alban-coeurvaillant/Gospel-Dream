@@ -1,0 +1,13 @@
+.o-banner-section{
+  background-color: rgb(222, 0, 0);
+  width: 100%;
+  padding: 1rem;
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  min-height: 10rem;
+
+  h1 {
+    color: black;
+  }
+}

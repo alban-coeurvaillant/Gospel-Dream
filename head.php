@@ -9,8 +9,12 @@
     <script>
         function openMenuMobile(){
             let x = document.getElementById("myLinks");
+            let btnToggle = document.getElementById("btnToggle");
+            btnToggle.classList.toggle("is--active");
+
             if (x.style.display ==="block"){
                 x.style.display = "none";
+
             } else {
 x.style.display = "block"
             }

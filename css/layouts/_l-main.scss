@@ -1,11 +1,10 @@
 
+
+
 .l-main{
-  background: white;
   display: flex;
-  width: 92vw;
+  width: 100%;
   flex-direction: column;
-
-
   .main__sidebar{
     display: flex;
     flex-direction: column;
@@ -13,11 +12,7 @@
     padding: 1rem;
     max-width: 20rem;
     align-items: center;
-
-
   }
-
-
 
   .main__content{
     display: flex;
@@ -25,10 +20,9 @@
     font-size: 1.3rem;
     color: white;
     .content__article {
-      padding: 2rem;
+      padding: 1rem;
       font-size: 1rem;
       line-height: 1.7;
-      background: blue;
     }
   }
 
@@ -56,10 +50,12 @@
 }
 
 footer{
-  padding: 1rem;
+
   box-sizing: border-box;
   p{
     text-align: center;
     color: white;
+    font-size: 0.9rem !important;
+
   }
 }

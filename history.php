@@ -1,5 +1,7 @@
 <?php
 $PAGE_NAME = "history";
+$PAGE_TITLE = "Ceci est le titre de la page";
+$PAGE_DESCRIPTION = "Ceci est la description de la page";
 ?>
 
 <?php include("head.php"); ?>
@@ -11,7 +13,7 @@ $PAGE_NAME = "history";
 
         </section>
     </header>
-    <section class="l-main is--wrapped is--white">
+    <section class="l-main is--wrapped ">
         <div class=" main__content">
             <div class="content__article">
 
