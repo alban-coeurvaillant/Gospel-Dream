@@ -4,13 +4,10 @@
             {{ __('Dashboard') }}
         </h2>
     </x-slot>
-
     <div class="admin-content">
         <div>
             <div>
-                <div>
-
-                </div>
+                <div></div>
             </div>
         </div>
     </div>

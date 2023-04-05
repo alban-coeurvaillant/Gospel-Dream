@@ -4,17 +4,14 @@
     @endslot
     <section class="o-photo-gallery ">
         <div class="container">
-        <h3>Découvrez la chorale</h3>
+            <h3>Découvrez notre chorale</h3>
             <div class="photos" data-bss-baguettebox="">
                 @foreach($images as $image)
                 <div class="photo">
-                    <a href="{{ $image->path }}">
-                        <img class="img-fluid" src="{{ $image->thumbpath }}" alt="">
-                    </a>
+                    <a href="{{ $image->path }}"><img class="img-fluid" src="{{ $image->thumbpath }}" alt=""></a>
                 </div>
                 @endforeach
             </div>
-            
             <div class="mt-3">
                 {{ $images->onEachSide(0)->links() }}
             </div>

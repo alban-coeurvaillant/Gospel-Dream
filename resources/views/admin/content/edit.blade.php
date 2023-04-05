@@ -4,7 +4,6 @@
             {{ __('Contents') }}
         </h2>
     </x-slot>
-
       <div class="admin-content">
         <x-card>
             <x-slot name="header">
@@ -12,7 +11,6 @@
                     <x-button-link :href="route('admin.content.index')" class="d-flex justify-content-end pe-5">{{ __('Back') }}</x-button-link>
                 </div>
             </x-slot>
-
             @if ($errors->any())
             <x-alert class="text-red-600">
                 @foreach($errors->all() as $error)
@@ -20,7 +18,6 @@
                 @endforeach
             </x-alert>
             @endif
-
             <form id="form_edit" action="{{ route('admin.content.update', $content->slug) }}" method="post" enctype="application/x-www-form-urlencoded">
                 @csrf
                 @method('put')

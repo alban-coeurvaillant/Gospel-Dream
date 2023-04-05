@@ -2,20 +2,17 @@
     @slot('h1')
         Gospel Dream
     @endslot
-  
-    <h2 class="mb-3">Notre Chorale</h2>
+    <h3>Notre Chorale</h3>
     <p>
-    Créée en 1990 la formation est aujourd’hui la plus active, avec un chant liturgique en plein essor depuis la fin des années 90.
+        La chorale Gospel dream est un groupe de musique noire créé en 1990. Depuis sa création, elle est devenue la formation la plus active, avec un chant liturgique en plein essor depuis la fin des années 90. Le groupe est composé de 10 à 12 choristes et d'un pianiste. Les membres de la chorale viennent d'horizons divers : certains sont d'origine africaine, d'autres viennent des Antilles ou encore des États-Unis.
     </p>
-    <p>Les uns sont d’origine africaine, les autres viennent des Antilles et des Etats-Unis.</p>
-    <p>La chorale Gospel dream est un ensemble mixte et cosmopolite de chanteurs et musiciens noirs qui réunit :</p>
-    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
-    <p>Sur scène, la chorale respire la joie de vivre, avec des voix qui parcourent toutes les nuances, des murmures aux
-        vocalises improvisées, leur concert est conçu pour permettre au public de participer, de témoigner et partager
-        un hymne à l’amour.</p>
-        <div class="dashboard">
-            <span>1</span>
-            <span>1</span>
-            <span>1</span>
-        </div>
+    <p>
+        Lorsqu'ils montent sur scène, les membres de la chorale Gospel dream respirent la joie de vivre. Ils offrent au public un concert unique, où les voix parcourent toutes les nuances, des murmures aux vocalises improvisées. Leur prestation est conçue pour permettre aux spectateurs de participer et de témoigner d'un hymne à l'amour.
+    </p>
+    <p>
+        La chorale Gospel dream est un ensemble cosmopolite de chanteurs et musiciens noirs. Leur répertoire est centré sur la musique gospel, mais ils n'hésitent pas à explorer d'autres genres musicaux. Grâce à leur travail acharné et leur talent, ils ont réussi à conquérir le cœur de leur public et à se faire un nom dans le monde de la musique.
+    </p>
+    <p>
+        La musique gospel est une musique qui touche le cœur des gens. Elle est empreinte de spiritualité et de joie de vivre. Les membres de la chorale Gospel dream sont des artistes passionnés qui mettent tout leur cœur et leur âme dans leur musique. Ils veulent partager leur amour de la musique et leur foi avec leur public.
+    </p>
 @endcomponent
