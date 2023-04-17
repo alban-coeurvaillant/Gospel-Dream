@@ -1,14 +1,16 @@
+:root {
+    --bs-font-sans-serif: Arial;
+}
 
 .btn-primary {
     --bs-btn-bg: var(--color-1);
 }
 
-.btn-secondary{
+.btn-secondary {
     --bs-btn-bg: var(--color-3);
     --bs-btn-border-color: var(--color-1);
 }
 
 .btn {
-    --bs-btn-border-radius : 0;
+    --bs-btn-border-radius: 0;
 }
-
