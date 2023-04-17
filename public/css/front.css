@@ -10915,8 +10915,16 @@ textarea.form-control-lg {
 }
 :root {
   /* colors */
-  --color-0: #fff;
-  --color-1: #4a0740;
+  --primary: $tyrian-purple-400;
+  --secondary: $pump-and-power-400;
+  --on-primary: $white;
+  --on-secondary: $tyrian-purple-700;
+  --success: #28a745;
+  --info: #17a2b8;
+  --warning: #ffc107;
+  --danger: #dc3545;
+  --color-0: $white;
+  --color-1: $tyrian-purple-400;
   --color-2: #cdcfc9;
   --color-3: #7D6990;
   --color-4: #e7e7e7;
