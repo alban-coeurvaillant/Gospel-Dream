@@ -10935,6 +10935,7 @@ textarea.form-control-lg {
   --deskyop: 60em;
   --header-background: var(--color-0);
   --unit: 1em;
+  --bs-font-sans-serif: Arial;
 }
 
 body {
@@ -11005,10 +11006,6 @@ h4,
 h5,
 h6 {
   color: #510040;
-}
-
-:root {
-  --bs-font-sans-serif: Arial;
 }
 
 .btn-primary {
