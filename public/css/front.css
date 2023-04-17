@@ -10939,7 +10939,6 @@ textarea.form-control-lg {
 }
 
 body {
-  font-family: "Roboto Slab", serif;
   font-weight: normal;
 }
 
@@ -10949,12 +10948,10 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Roboto Slab", serif;
   font-weight: normal;
 }
 
 .button {
-  font-family: "Roboto Slab", serif;
   font-weight: bold;
 }
 
@@ -10997,15 +10994,6 @@ h4,
 }
 .txt .txt--right {
   text-align: right !important;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  color: #510040;
 }
 
 .btn-primary {
