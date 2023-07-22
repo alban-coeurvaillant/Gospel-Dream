@@ -35,7 +35,7 @@
                         <span class="d-flex w-100 a-heading"> <a href="http://www.fnactickets.com/recherche/rechercheRapide.do?search=gospel+dream" class="border-0 btn btn-outline-dark btn-primary p-2 text-white w-100">Acheter sur la Fnac</a> </span>
                         <span class="d-flex w-100 mt-2"> <a href="http://www.francebillet.com/recherche/rechercheRapide.do?search=GOSPEL+DREAM" class="border-0 btn btn-outline-dark btn-primary p-2 text-white w-100">Acheter sur FranceBillet</a> </span>
                     </p>
-                    <div id="image-block mb-3">
+                    <div id="image-block">
                         <picture class="d-flex justify-content-center">
                             <img class="w-75" src="{{ asset('img/affiche.jpg') }}">
                         </picture>
