@@ -28,11 +28,11 @@
                     <div id="contact-block-head">
                         <p class="fs-4 mb-1 p-2 tex text-center">Réservations</p>
                     </div>
-                    <p class="mt0 o-contact-block p-2 w-100">
-                        <span class="d-flex w-100 a-heading">
+                    <p class="mt0 o-contact-block p-2">
+                        <span class="btn p-2 d-flex w-100 w-100 d-flex align-content-center justify-content-center ">
                             <a href="http://www.fnactickets.com/recherche/rechercheRapide.do?search=gospel+dream" class="btn p-2 w-100">Acheter sur la Fnac</a>
                         </span>
-                        <span class="d-flex w-100 mt-2">
+                        <span class="btn p-2 d-flex w-100 w-100 d-flex align-content-center justify-content-center">
                             <a href="http://www.francebillet.com/recherche/rechercheRapide.do?search=GOSPEL+DREAM" class="btn p-2 w-100">Acheter sur FranceBillet</a>
                         </span>
                     </p>
@@ -42,8 +42,8 @@
                         </picture>
                     </div>
                     <p class="d-flex flex-column mb-0 p-2">
-                        <span class="btn p-2 w-100">Tél. : 01 43 14 08 10</span>
-                        <span class="btn p-2 w-100 mt-2">Port. : 06 07 08 55 56</span>
+                        <span class="btn p-2 w-100 d-flex align-content-center justify-content-center">Tél. : 01 43 14 08 10</span>
+                        <span class="btn p-2 w-100 d-flex align-content-center justify-content-center">Port. : 06 07 08 55 56</span>
                     </p>
                     <div id="video-block">
                         <p class="fs-4 mb-0 p-2 tex text-center fs-5">Presse Pack</p>
