@@ -9,7 +9,7 @@
         <script src="{{ asset('js/app.js') }}" defer></script>
     </head>
     <body class="p-4">
-        <div class="bg-light p-5 m-5">
+        <div class="bg-light p-3">
             @include('layouts.navigation')
             <header class="p-3">{{ $header }}</header>
             <main class="main-container bg-white p-4">
