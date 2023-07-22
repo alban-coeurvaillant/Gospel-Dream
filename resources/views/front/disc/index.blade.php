@@ -10,9 +10,9 @@
                 <img class="img-fluid" src="{{ asset($disc->image_path) }}" alt="">
                 </div>
                 <div class="disc-description p-2">
-                    <div class="fs-3">{{ $disc->title }}</div>
-                    <div>{{ $disc->subtitle }}</div>
-                    <div>{{ $disc->description }}</div>
+                    <h3>{{ $disc->title }}</h3>
+                    <h4>{{ $disc->subtitle }}</h4>
+                    <p>{{ $disc->description }}</p>
                     @if ($disc->url) 
                     <div class="mt-2">
                         <a href="{{ $disc->url }}" target="_blank" class="btn btn-secondary border-0">Découvrer l'album</a>
