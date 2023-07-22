@@ -41,8 +41,12 @@
                                 <span class="btn p-2 d-flex w-100 w-100 d-flex align-content-center justify-content-center">
                                     <a href="http://www.francebillet.com/recherche/rechercheRapide.do?search=GOSPEL+DREAM" class="btn p-2 w-100">Acheter sur FranceBillet</a>
                                 </span>
-                                <span class="btn p-2 w-100 d-flex align-content-center justify-content-center">Tél. : 01 43 14 08 10</span>
-                                <span class="btn p-2 w-100 d-flex align-content-center justify-content-center">Port. : 06 07 08 55 56</span>
+                                <span class="btn p-2 w-100 d-flex align-content-center justify-content-center">
+                                    <a href="..." class="btn p-2 w-100">Tél. : 01 43 14 08 10</a>
+                                </span>
+                                <span class="btn p-2 w-100 d-flex align-content-center justify-content-center">
+                                    <a href="..." class="btn p-2 w-100">Port. : 06 07 08 55 56</a>
+                                </span>
                             </p>
                             <div id="video-block">
                                 <p class="fs-4 mb-0 p-2 tex text-center fs-5">Presse Pack</p>
