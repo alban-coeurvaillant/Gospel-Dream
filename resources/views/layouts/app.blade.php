@@ -8,11 +8,15 @@
         <link rel="stylesheet" href="{{ asset('css/app.css') }}">
         <script src="{{ asset('js/app.js') }}" defer></script>
     </head>
-    <body class="bg-danger m-5 o-admin-header p-4">
+    <body class="p-4">
         <div class="bg-light p-5 m-5">
             @include('layouts.navigation')
-            <header class="o-admin-header">{{ $header }}</header>
-            <main class="main-container">{{ $slot }}</main>
+            <header class="p-3">{{ $header }}</header>
+            <main class="main-container bg-white p-4">
+                <div class="container-inner">
+                {{ $slot }}
+                </div>
+            </main>
         </div>
     </body>
 </html>
