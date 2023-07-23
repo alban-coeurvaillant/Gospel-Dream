@@ -2,10 +2,10 @@
     @slot('h1')
         Concerts et reservations
     @endslot
-    <div class="info-event">
-        <h2 class="p-3">Lorem ipsum dolor sit amet.</h2>
-        <h3 class="p-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque nam sed facilis voluptatem sunt similique.</h3>
-        </div> 
+    <section class="infos-event">
+        <h2>Lorem ipsum dolor sit amet.</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque nam sed facilis voluptatem sunt similique.</p>
+    </section> 
     @foreach($data as $row)
     <div class="o-calendar-date ">
         <p>{{ ucfirst($row->first()->date->isoFormat('MMMM YYYY')) }}</p>

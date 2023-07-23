@@ -2,10 +2,10 @@
     @slot('h1')
         Galerie photo
     @endslot
-    <section class="info-event">
-        <h2 class="p-3">Lorem ipsum dolor sit amet.</h2>
-        <h3 class="p-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque nam sed facilis voluptatem sunt similique.</h3>
-        </section> 
+    <section class="infos-gallery">
+        <h2>Lorem ipsum dolor sit amet.</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque nam sed facilis voluptatem sunt similique.</p> 
+    </section> 
     <section class="o-photo-gallery ">
         <div class="container">
             <h3>Découvrez notre chorale</h3>

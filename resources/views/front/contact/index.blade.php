@@ -7,10 +7,10 @@
         {{ __('Contact') }}
     @endslot
 
-    <div class="info-contact">
-        <h2 class="p-3">Lorem ipsum dolor sit amet.</h2>
-        <h3 class="p-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque nam sed facilis voluptatem sunt similique.</h3>
-        </div> 
+    <section class="infos-contact">
+        <h2>Lorem ipsum dolor sit amet.</h2>
+        <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque nam sed facilis voluptatem sunt similique.</h3>
+    </section> 
 
     @if ($errors->any())
         <x-alert class="alert alert-danger">
