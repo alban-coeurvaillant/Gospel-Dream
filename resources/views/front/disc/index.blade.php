@@ -3,8 +3,8 @@
         Discographie
     @endslot
     <section class="infos-disc">
-        <h2 class="p-3">Lorem ipsum dolor sit amet.</h2>
-        <h3 class="p-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque nam sed facilis voluptatem sunt similique.</h3>
+        <h2>Lorem ipsum dolor sit amet.</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque nam sed facilis voluptatem sunt similique.</p>
     </section>
     <section>
         <div class="discs-group">
