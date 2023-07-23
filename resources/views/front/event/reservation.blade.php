@@ -9,8 +9,8 @@
     <section class="info-event">
         <h2>{{ $event->place }}</h2>
         <div class="inner">
-            <h3>{{ $event->date_fr }}</h3>
-            <p class="escription">{{ $event->time }}</p>
+            <p class="date">{{ $event->date_fr }}</p>
+            <p class="time">{{ $event->time }}</p>
         </div>
     </section> 
 
