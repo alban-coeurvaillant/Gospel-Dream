@@ -9,7 +9,7 @@
 
     <section class="infos-contact">
         <h2>Lorem ipsum dolor sit amet.</h2>
-        <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque nam sed facilis voluptatem sunt similique.</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque nam sed facilis voluptatem sunt similique.</p>
     </section> 
 
     @if ($errors->any())
