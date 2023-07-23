@@ -6,11 +6,13 @@
     @slot('h1')
         {{ __('Reservation') }}
     @endslot
-    <div class="info-resa">
-        <h2 class="p-3">{{ $event->place }}</h2>
-        <h3 class="p-3">{{ $event->date_fr }}</h3>
-        <p class="p-3 description">{{ $event->time }}</p>
-    </div> 
+    <section class="info-event">
+        <h2>{{ $event->place }}</h2>
+        <div class="inner">
+            <h3>{{ $event->date_fr }}</h3>
+            <p class="escription">{{ $event->time }}</p>
+        </div>
+    </section> 
 
     @if ($errors->any())
         <x-alert class="alert-danger">
