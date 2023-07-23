@@ -2,11 +2,15 @@
     @slot('h1')
         Concerts et reservations
     @endslot
+    <div class="info-event">
+        <h2 class="p-3">Lorem ipsum dolor sit amet.</h2>
+        <h3 class="p-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque nam sed facilis voluptatem sunt similique.</h3>
+        </div> 
     @foreach($data as $row)
     <div class="o-calendar-date ">
         <p>{{ ucfirst($row->first()->date->isoFormat('MMMM YYYY')) }}</p>
     </div>
-    <div class="o-events container mt-3">
+    <div class="o-events mt-3">
         @foreach($row as $event)
         <div class="align-items-center border col d-flex flex-column flex-lg-row o-card-event p-2 mt-2">
             <span class="d-flex w-50 text-uppercase">{{ $event->place }}</span>
@@ -18,7 +22,7 @@
                 <span class="time d-flex mx-2">{{ $event->time }}</span>
             </div>
             <span class="d-flex flex-grow-1 justify-content-center">
-                <x-button-link  href="{{ route('event.reservation', $event) }}" class="btn btn-secondary h-auto border-0 w-100">{{ __('Book') }}</x-button-link>
+                <x-button-link  href="{{ route('event.reservation', $event) }}" class="btn h-auto border-0 w-100">{{ __('Book') }}</x-button-link>
             </span>
         </div>
         @endforeach

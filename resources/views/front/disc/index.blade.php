@@ -2,7 +2,12 @@
     @slot('h1')
         Discographie
     @endslot
-    <section class="k-section">
+    <section>
+
+    <div class="info-dis">
+        <h2 class="p-3">Lorem ipsum dolor sit amet.</h2>
+        <h3 class="p-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque nam sed facilis voluptatem sunt similique.</h3>
+        </div> 
         <div class="discs-group">
             @foreach($discs as $disc)
             <div class="o-disc-info d-flex">
