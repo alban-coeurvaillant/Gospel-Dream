@@ -5,7 +5,7 @@
         </h2>
          <x-button-link :href="route('admin.event.create')">{{ __('Create a event') }}</x-button-link>
     </x-slot>
-      <div class="admin-content">
+    <div class="admin-content">
         <table id="event" class="table table-bordered">
             <thead>
             <tr>
@@ -49,5 +49,7 @@
             @endforelse
             </tbody>
         </table>
+          
+        {{ $events->links() }}  
     </div>
 </x-app-layout>

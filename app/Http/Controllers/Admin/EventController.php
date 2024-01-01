@@ -8,6 +8,8 @@ use Illuminate\Http\Request;
 
 class EventController extends Controller
 {
+    const NB_ITEMS_PAGE = 20;
+    
     public function __construct()
     {
         $this->middleware('event');
@@ -19,7 +21,7 @@ class EventController extends Controller
      */
     public function index()
     {
-        $events = Event::orderByDesc('date')->orderByDesc('time')->withCount('reservations')->withSum('reservations', 'nb_seats')->get();
+        $events = Event::orderByDesc('date')->orderByDesc('time')->withCount('reservations')->withSum('reservations', 'nb_seats')->paginate(self::NB_ITEMS_PAGE);
         return view('admin.event.index', compact('events'));
     }
 

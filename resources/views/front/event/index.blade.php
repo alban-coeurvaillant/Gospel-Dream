@@ -29,6 +29,6 @@
     </div>
     @endforeach
     <div class="mt-3">
-        {{ $events->onEachSide(0)->links() }}
+        {{ $events->onEachSide(2)->links() }}
     </div>
 @endcomponent
